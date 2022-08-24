@@ -1,2 +1,4 @@
 .idea/
-.idea/misc.xml
+
+learning_log/learning_log/__pycache__
+learning_log/learning_logs/__pycache__
