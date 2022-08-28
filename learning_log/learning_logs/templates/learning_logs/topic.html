@@ -15,10 +15,11 @@
         <p>{{ entry.date_added|date:'M d, Y H:i'}}</p>
         <p>{{ entry.text|linebreaks }}</p>
       </li>
-    {% empty %}}
+    {% empty %}
       <li>There are no entries for this topic yet.</li>
     {% endfor %}
   </ul>
+      <a href="{% url 'learning_logs:new_entry' topic.id %}">Add a new entry</a>
   {% endblock content %}
 </body>
 </html>
