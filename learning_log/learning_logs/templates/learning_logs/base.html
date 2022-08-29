@@ -6,8 +6,17 @@
 </head>
 <body>
 
-    <h2><a href="{% url 'learning_logs:index' %}">Learning Log</a> -
-    <a href="{% url 'learning_logs:topics' %}">Topics</a></h2>
+    <p>
+        <a href="{% url 'learning_logs:index' %}">Learning Log</a> -
+        <a href="{% url 'learning_logs:topics' %}">Topics</a> -
+        {% if user.is_authenticated %}
+            Hello, {{ user.username }} -
+            <a href="{% url 'users:logout' %}">Log Out</a>
+        {% else %}
+            <a href="{% url 'users:register' %}">Registration</a>
+            <a href="{% url 'users:login' %}">Log In</a>
+        {% endif %}
+    </p>
     {% block content %}{% endblock content %}
 </body>
 </html>
