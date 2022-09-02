@@ -1,8 +1,8 @@
 .idea/
 
-learning_log/learning_log/__pycache__
-learning_log/learning_logs/__pycache__
-learning_log/users/__pycache__
-learning_log/users/migrations/__pycache__
-learning_log/learning_log/secret.txt
+learning_log/__pycache__
+learning_logs/__pycache__
+users/__pycache__
+users/migrations/__pycache__
+learning_log/secret.txt
 *.sqlite3
