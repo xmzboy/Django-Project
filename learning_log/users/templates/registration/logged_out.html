@@ -7,8 +7,12 @@
 </head>
 <body>
     {% extends 'learning_logs/base.html' %}
-    {% block content %}
-        <p>You have been logged out. Thank you for visiting!</p>
-    {% endblock content %}
+    {% load bootstrap4 %}
+    {% block page_header %}
+        <div class="jumbotron">
+            <h1 class="display-3">Bye-bye</h1>
+            <p class="lead">You have been logged out. Thank you for visiting!</p>
+        </div>
+    {% endblock page_header %}
 </body>
 </html>
