@@ -47,3 +47,7 @@ The website have 3 folders:
 ___
 
 # Overview
+
+The main page:
+![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/main_page.PNG)
+___
