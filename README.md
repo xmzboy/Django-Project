@@ -51,3 +51,27 @@ ___
 The main page:
 ![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/main_page.PNG)
 ___
+
+Topics page:
+![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/topics.PNG)
+___
+
+Topic page:
+![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/topic.PNG)
+___
+
+Registration page:
+![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/register.PNG)
+___
+
+Add new topic page:
+![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/add_new_topic.PNG)
+___
+
+Add a new entry page:
+![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/add_new_entry.PNG)
+___
+
+Error 404 page:
+![Index](https://github.com/xmzboy/Django-Project/blob/main/readme_images/404.PNG)
+___
