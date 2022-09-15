@@ -36,6 +36,16 @@ ___
 You can test the operation of this application on this 👉 [site](https://learning-log-xmz.herokuapp.com/).
 
 Or you can build the project yourself, for this, install the necessary dependencies and, if you want, deploy on the server.
+To run the project, run the following commands:
+```bash
+cd Django-Project
+```
+```
+pip install -r requirements.txt
+```
+```
+python manage.py runserver
+```
 ___
 
 # Structure
