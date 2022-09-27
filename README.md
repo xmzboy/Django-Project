@@ -1,5 +1,7 @@
 # Django-Project
  Educational Django project
+ 
+Test here -> https://learning-log-xmz.herokuapp.com/
 ___
 
 # Contents
